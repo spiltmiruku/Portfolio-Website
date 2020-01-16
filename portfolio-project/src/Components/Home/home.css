@@ -1,0 +1,30 @@
+/* ----------HOME COMPONENT---------- */
+
+body {
+  background: rgb(17, 8, 52);
+  background: linear-gradient(
+    90deg,
+    rgba(17, 8, 52, 1) 20%,
+    rgba(2, 4, 28, 1) 100%
+  );
+    height: 100vh;
+}
+
+.header-elements {
+    font-size: 15px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.header-elements div {
+    padding-right: 30px;
+}
+
+.header-elements Link a{
+    text-decoration: none;
+
+}
