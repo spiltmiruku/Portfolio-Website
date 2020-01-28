@@ -1,10 +1,28 @@
-import React from 'react';
-import './about.css';
+import React from "react";
+import "./about.css";
 
 const About = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+  return (
+    <div className='about-box'>
+      <h1 className='about-header'>Digital Unicorn.</h1>
+      <section className='about-me'>
+      <p>
+        I am a Full-Stack developer that uses the PERN stack to create visually
+        aesthetic and sleek apps with user-functionality in mind.
+      </p>
+      <p>
+        Curious. Honest. Passionate. Working in a variety of different
+        industries has amplified my curiosity for meeting new people, learning
+        new technologies, appreciating diverse cultures, and traveling to new
+        lands. Most recently, my curiosity has lead me to fullstack development.
+        My tech stack includes JavaScript, React, Redux, Node.js, Express.js,
+        PostgreSQL, HTML5, & CSS. For DevOps I use GitHub, Git, SourceTree,
+        Postman, & Visual Studio Code.
+      </p>
+      </section>
+    </div>
+  );
+};
+
+
+export default About;

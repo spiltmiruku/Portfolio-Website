@@ -9,22 +9,3 @@ body {
   );
     height: 100vh;
 }
-
-.header-elements {
-    font-size: 15px;
-    color: #fff;
-    display: flex;
-    flex-direction: row;
-    align-content: space-around;
-    align-items: center;
-    margin: 20px;
-}
-
-.header-elements div {
-    padding-right: 30px;
-}
-
-.header-elements Link a{
-    text-decoration: none;
-
-}

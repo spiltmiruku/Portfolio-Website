@@ -1,1 +1,18 @@
 /* ----------ABOUT COMPONENT---------- */
+
+.about-box {
+    color: #fff;
+    margin-left: 50px;
+}
+
+.about-header {
+    font-size: 70px;
+    text-align: left;
+}
+
+.about-me {
+    text-align: left;
+    width: 60%;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
