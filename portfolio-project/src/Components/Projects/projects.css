@@ -3,4 +3,21 @@
 
 .projects-box {
     color: #fff;
+    font-family: "Inconsolata", monospace;
+    display: flex;
+    flex-direction: column;
+}
+
+#preview-img {
+    height: 300px;
+    margin: 30px;
+
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: filter .3s ease-in-out;
+}
+
+#preview-img:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }

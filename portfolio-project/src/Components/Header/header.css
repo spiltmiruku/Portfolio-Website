@@ -1,21 +1,27 @@
 /* ----------HEADER COMPONENT---------- */
-  
-  .header-elements {
-      font-size: 15px;
-      color: #fff;
-      display: flex;
-      flex-direction: row;
-      align-content: space-around;
-      align-items: center;
-      margin: 50px 0 0 50px;
-  }
-  
-  .header-elements div {
-      padding-right: 30px;
-  }
-  
-  .header-elements a:link, a:visited {
-    color: #fff;
-    text-decoration: none;
-  }
-  
+
+
+.header-elements {
+  font-family: "Inconsolata", monospace;
+  font-size: 18px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  align-items: center;
+  margin: 50px 0 0 50px;
+}
+
+.header-elements div {
+  padding-right: 30px;
+}
+
+.header-elements a:hover {
+  color: #fff;
+}
+
+.header-elements a:link,
+a:visited {
+  color: #bbb;
+  text-decoration: none;
+}

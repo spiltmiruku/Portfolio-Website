@@ -1,1 +1,62 @@
 /* ----------CONTACT COMPONENT---------- */
+
+.contact-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.sm-input,
+.lg-input {
+    background-color: #000;
+    border: none;
+    border-bottom: #555 solid;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: 'Inconsolata', monospace;
+
+}
+
+.sm-input {
+    height: 50px;
+    width: 300px;
+}
+
+.lg-input {
+    height: 300px;
+    width: 500px;
+}
+
+.submit-info {
+    border: #555 solid;
+    color: #555;
+    height: 45px;
+    width: 150px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 20px 50px;
+}
+
+.submit-info:hover {
+    border: #fff solid;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.contact-methods {
+    text-align: left;
+    color: #fff;
+    margin: 150px 100px;
+    font-family: 'Lexend Exa', sans-serif;
+
+}
