@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./home.css";
 import space from "../../resources/space.jpg";
 
@@ -46,7 +46,7 @@ function Home() {
     }, delta);
   };
 
-  window.onload = function() {
+  useEffect(() =>  {
     var elements = document.getElementsByClassName("txt-rotate");
     for (var i = 0; i < elements.length; i++) {
       var toRotate = elements[i].getAttribute("data-rotate");
@@ -60,7 +60,7 @@ function Home() {
     css.type = "text/css";
     css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
     document.body.appendChild(css);
-  };
+  });
 
   return (
     <html className="home-bg">

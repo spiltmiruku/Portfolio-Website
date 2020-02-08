@@ -5,7 +5,10 @@ import about from '../../resources/about.jpeg';
 const About = () => {
   return (
     <div className="about-box">
+      <section className='header-and-img'>
       <h1 className="about-header">Digital Unicorn.</h1>
+        <img id='about-img' src={about} alt='portrait' />
+      </section>
       <section className="about-me">
         <p>
           Hey, my name is Kate and I'm a Full-Stack developer + Digital Designer
@@ -22,7 +25,6 @@ const About = () => {
           SourceTree, Postman, & Visual Studio Code.
         </p>
       </section>
-        <img id='about-img' src={about} alt='portrait' />
     </div>
   );
 };
