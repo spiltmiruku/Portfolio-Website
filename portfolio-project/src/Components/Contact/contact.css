@@ -49,7 +49,7 @@
 .submit-info:hover {
     border: #fff solid;
     color: #fff;
-    cursor: pointer;
+    cursor: not-allowed;
 }
 
 
@@ -58,5 +58,9 @@
     color: #fff;
     margin: 150px 100px;
     font-family: 'Lexend Exa', sans-serif;
+}
 
+.contact-icon {
+    width: 30px;
+    margin: 0 50px;
 }
