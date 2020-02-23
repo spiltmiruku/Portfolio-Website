@@ -20,8 +20,11 @@ const About = () => {
           industries has amplified my curiosity for meeting new people, learning
           new technologies, appreciating diverse cultures, and traveling to new
           lands. Most recently, my curiosity has lead me to fullstack
-          development. My tech stack includes JavaScript, React, Redux, Node.js,
-          Express.js, PostgreSQL, HTML5, & CSS. For DevOps I use GitHub, Git,
+          development. 
+          </p>
+          <p>
+          My tech stack includes JavaScript, React, Redux, Node.js,
+          Express.js, PostgreSQL, HTML5, CSS3, Bootstrap, & Sass. For DevOps I use GitHub, Git,
           SourceTree, Postman, & Visual Studio Code.
         </p>
       </section>

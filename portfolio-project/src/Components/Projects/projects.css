@@ -9,7 +9,7 @@
 }
 
 #preview-img {
-    height: 300px;
+    width: 500px;
     margin: 30px;
 
     -webkit-filter: grayscale(0%);

@@ -4,8 +4,11 @@ import "./projects.css";
 import booking from "../../resources/astraeabooking.png";
 import moon from "../../resources/astraeamoon.png";
 
-import auth from "../../resources/moneta_auth.jpg";
-import payment from "../../resources/moneta_payment.jpg";
+// import auth from "../../resources/moneta_auth.jpg";
+// import payment from "../../resources/moneta_payment.jpg";
+
+import moneta1 from '../../resources/moneta1.png';
+import moneta2 from '../../resources/moneta2.png';
 
 import showcaseabout from "../../resources/showcaseabout.png";
 import showcaseprojects from "../../resources/showcaseprojects.png";
@@ -29,11 +32,11 @@ const Projects = () => {
         <p>002</p>
         <h1>MONETA</h1>
         <a href="http://moneta.guru/#/">
-          <img id="preview-img" src={auth} />
+          <img id="preview-img" src={moneta1} />
         </a>
 
         <a href="http://moneta.guru/#/">
-          <img id="preview-img" src={payment} />
+          <img id="preview-img" src={moneta2} />
         </a>
       </section>
 

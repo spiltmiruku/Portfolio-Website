@@ -19,7 +19,6 @@ const Contact = () => {
       <div className="contact-methods">
         {/* <p>tel: 801-123-1234</p> */}
         {/* <p>email: email@email.com</p> */}
-        <p>Current Residence: Salt Lake City, UT</p>
         <p>
           Contact form is currently under construction. In the meanwhile,
           connect with me on social media:
