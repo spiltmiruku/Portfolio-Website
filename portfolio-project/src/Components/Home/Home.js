@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./home.css";
-import space from "../../resources/space.jpg";
+// import space from "../../resources/space.jpg";
 
 function Home() {
   var TxtRotate = function(el, toRotate, period) {

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./contact.css";
 const linkedin =
   "https://astraea-project.s3-us-west-2.amazonaws.com/Contact-Icons/linkedin.png";
