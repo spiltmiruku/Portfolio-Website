@@ -24,7 +24,7 @@ const Contact = () => {
           connect with me on social media:
         </p> */}
 
-<p>Connect with me on social media:</p>
+        <p>Connect with me on social media:</p>
 
         <a href="https://www.linkedin.com/in/kateqz/">
           <img src={linkedin} alt="LinkedIn" className="contact-icon" />

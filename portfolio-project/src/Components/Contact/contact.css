@@ -56,13 +56,21 @@ p {
 }
 
 .contact-methods {
+  font-size: 30px;
   text-align: left;
   color: #fff;
   margin: 150px 100px;
   font-family: "Lexend Exa", sans-serif;
 }
 
-.contact-icon {
-  width: 30px;
+.contact-methods a {
   margin: 0 50px;
+}
+
+.contact-icon {
+  height: 50px;
+}
+
+.contact-icon:hover {
+  filter: drop-shadow(10px 10px 15px white) invert(75%);
 }
