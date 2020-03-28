@@ -19,6 +19,7 @@ const Projects = () => {
       <section className="project-section">
         <p>001</p>
         <h1>ASTRAEA</h1>
+        <p>user: guest | password: guest</p>
         <a href="http://54.185.198.52/#/">
           <img id="preview-img" src={moon} alt='screenshot of astraea landing page'/>
         </a>
@@ -31,6 +32,7 @@ const Projects = () => {
       <section className="project-section">
         <p>002</p>
         <h1>MONETA</h1>
+        <p>user: guest | password: guest</p>
         <a href="http://moneta.guru/#/">
           <img id="preview-img" src={moneta1} alt='screenshot of moneta login page'/>
         </a>

@@ -10,19 +10,21 @@ const instagram =
 const Contact = () => {
   return (
     <div className="contact-box">
-      <div className="contact-inputs">
+      {/* <div className="contact-inputs">
         <input className="sm-input" placeholder="name" type="text"></input>
         <input className="sm-input" placeholder="email" type="email"></input>
         <input className="lg-input" placeholder="message" type="text"></input>
         <div className="submit-info">SEND</div>
-      </div>
+      </div> */}
       <div className="contact-methods">
         {/* <p>tel: 801-123-1234</p> */}
         {/* <p>email: email@email.com</p> */}
-        <p>
+        {/* <p>
           Contact form is currently under construction. In the meanwhile,
           connect with me on social media:
-        </p>
+        </p> */}
+
+<p>Connect with me on social media:</p>
 
         <a href="https://www.linkedin.com/in/kateqz/">
           <img src={linkedin} alt="LinkedIn" className="contact-icon" />
