@@ -1,22 +1,10 @@
 /* ----------CONTACT COMPONENT---------- */
-*{
-  margin: 0;
-}
-canvas {
-  background: #000;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
-p {
-    margin: 50px;
-  }
 
 .contact-box {
   display: flex;
   flex-direction: row;
 }
-
+/* 
 .contact-inputs {
   display: flex;
   flex-direction: column;
@@ -61,18 +49,24 @@ p {
   border: #fff solid;
   color: #fff;
   cursor: not-allowed;
-}
+} */
 
 .contact-methods {
-  font-size: 30px;
   text-align: left;
   color: #fff;
   margin: 150px 100px;
   font-family: "Lexend Exa", sans-serif;
+
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: stretch;
 }
 
 .contact-methods a {
-  margin: 0 50px;
+  margin-right: 75px;
 }
 
 .contact-icon {
@@ -81,4 +75,8 @@ p {
 
 .contact-icon:hover {
   filter: drop-shadow(10px 10px 15px white) invert(75%);
+}
+
+.scrolling-text {
+  margin-bottom: 50px;
 }

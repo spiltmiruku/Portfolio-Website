@@ -14,7 +14,7 @@ body {
 
 .console-text {
   color: #fff;
-font-family: 'Lexend Exa', sans-serif;
+  font-family: "Lexend Exa", sans-serif;
   font-size: 3.5em;
   font-weight: 700;
   margin: 0.4em 0;
@@ -34,7 +34,6 @@ font-family: 'Lexend Exa', sans-serif;
 /* #home-hero-img {
   width: 100vw;
 } */
-
 
 /* 
 font-family: 'Inconsolata', monospace;
