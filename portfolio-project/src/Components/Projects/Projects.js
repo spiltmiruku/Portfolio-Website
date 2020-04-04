@@ -13,6 +13,14 @@ import moneta2 from '../../resources/moneta2.png';
 import showcaseabout from "../../resources/showcaseabout.png";
 import showcaseprojects from "../../resources/showcaseprojects.png";
 
+import dh_light_landing from '../../resources/dh_light_landing.jpg';
+import dh_light_contact from '../../resources/dh_light_contact.jpg';
+
+import BT_Landing from '../../resources/BT_Landing.jpg';
+import BT_Order from '../../resources/BT_Order.jpg';
+
+import BC_SLC from '../../resources/BC_SLC.png';
+
 const Projects = () => {
   return (
     <div className="projects-box">
@@ -53,6 +61,39 @@ const Projects = () => {
           <img id="preview-img" src={showcaseprojects} alt='screenshot of spilt milk projects section'/>
         </a>
       </section>
+
+      <section className="project-section">
+        <p>004</p>
+        <h1>DIGITAL HARBINGER - Work in Progress</h1>
+        {/* <a href=""> */}
+          <img id="preview-img" src={dh_light_landing} alt='screenshot of digital harbinger landing section'/>
+        {/* </a> */}
+
+        {/* <a href=""> */}
+          <img id="preview-img" src={dh_light_contact} alt='screenshot of digital harbinger contact section'/>
+        {/* </a> */}
+      </section>
+
+      <section className="project-section">
+        <p>005</p>
+        <h1>BUBBLE TEA SHOP - Work in Progress</h1>
+        {/* <a href=""> */}
+          <img id="preview-img-vert" src={BT_Landing} alt='screenshot of bubble tea landing section'/>
+        {/* </a> */}
+
+        {/* <a href=""> */}
+          <img id="preview-img-vert" src={BT_Order} alt='screenshot of bubble tea order section'/>
+        {/* </a> */}
+      </section>
+
+      <section className="project-section">
+        <p>006</p>
+        <h1>BOOK CLUB</h1>
+        <a href="https://read-slc.web.app/">
+          <img id="preview-img" src={BC_SLC} alt='screenshot of book club landing section'/>
+        </a>
+      </section>
+
     </div>
   );
 };
