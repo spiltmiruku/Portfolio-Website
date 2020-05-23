@@ -77,13 +77,13 @@ const Projects = () => {
       <section className="project-section">
         <p>005</p>
         <h1>BUBBLE TEA SHOP - Work in Progress</h1>
-        {/* <a href=""> */}
+        <a href="https://meo-tea.web.app/">
           <img id="preview-img-vert" src={BT_Landing} alt='screenshot of bubble tea landing section'/>
-        {/* </a> */}
+        </a>
 
-        {/* <a href=""> */}
+        <a href="https://meo-tea.web.app/">
           <img id="preview-img-vert" src={BT_Order} alt='screenshot of bubble tea order section'/>
-        {/* </a> */}
+        </a>
       </section>
 
       <section className="project-section">
