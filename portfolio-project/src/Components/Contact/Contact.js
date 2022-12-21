@@ -82,7 +82,8 @@ const Contact = () => {
             <span
               class="txt-rotate"
               data-period="2000"
-              data-rotate='[ " social media.", " LinkedIn.", " GitHub.", " Instagram."]'
+              // data-rotate='[ " social media.", " LinkedIn.", " GitHub.", " Instagram."]'
+              data-rotate='[ " LinkedIn."]'
             ></span>
           </h1>
         </div>
@@ -91,12 +92,12 @@ const Contact = () => {
       <a href="https://www.linkedin.com/in/kateqz/">
         <img src={linkedin} alt="LinkedIn" className="contact-icon" />
       </a>
-      <a href="https://github.com/spiltmiruku">
+      {/* <a href="https://github.com/spiltmiruku">
         <img src={github} alt="GitHub" className="contact-icon" />
       </a>
       <a href="https://www.instagram.com/spiltmiruku/">
         <img src={instagram} alt="Instagram" className="contact-icon" />
-      </a>
+      </a> */}
       </div>
 </div>
     </div>
