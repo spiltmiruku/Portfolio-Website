@@ -89,7 +89,7 @@ const Contact = () => {
         </div>
 <div className='icons'>
 
-      <a href="https://www.linkedin.com/in/kateqz/">
+      <a href="https://www.linkedin.com/in/kateqz/" target="_blank" rel="noopener noreferrer">
         <img src={linkedin} alt="LinkedIn" className="contact-icon" />
       </a>
       {/* <a href="https://github.com/spiltmiruku">

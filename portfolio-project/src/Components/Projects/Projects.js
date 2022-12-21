@@ -34,7 +34,7 @@ const Projects = () => {
         <p>001</p>
         <h1>zFairs</h1>
         <p>Professional Experience - Developer & Designer</p>
-        <a href="https://www.zfairs.com/">
+        <a href="https://www.zfairs.com/" target="_blank" rel="noopener noreferrer">
           <img
             id="preview-img"
             src={zFairs1}
@@ -42,7 +42,7 @@ const Projects = () => {
           />
         </a>
 
-        <a href="https://www.zfairs.com/">
+        <a href="https://www.zfairs.com/" target="_blank" rel="noopener noreferrer">
           <img id="preview-img" src={zFairs2} alt="screenshot of zFairs quiz" />
         </a>
       </section>
@@ -52,7 +52,7 @@ const Projects = () => {
         <p>002</p>
         <h1>DocTogether - Work in Progress</h1>
         <p>Professional Experience - Developer & Designer</p>
-        <a href="https://www.doctogether.com/">
+        <a href="https://www.doctogether.com/" target="_blank" rel="noopener noreferrer">
           <img
             id="preview-img"
             src={doctogether1}
@@ -60,7 +60,7 @@ const Projects = () => {
           />
         </a>
 
-        <a href="https://www.doctogether.com/">
+        <a href="https://www.doctogether.com/" target="_blank" rel="noopener noreferrer">
           <img
             id="preview-img"
             src={doctogether2}
@@ -118,7 +118,7 @@ const Projects = () => {
         <p>005</p>
         <h1>BOOK CLUB</h1>
         <p>Personal Project - Developer & Designer</p>
-        <a href="https://read-slc.web.app/">
+        <a href="https://read-slc.web.app/" target="_blank" rel="noopener noreferrer">
           <img
             id="preview-img"
             src={BC_SLC}
@@ -126,7 +126,7 @@ const Projects = () => {
           />
         </a>
 
-        <a href="https://read-slc.web.app/">
+        <a href="https://read-slc.web.app/" target="_blank" rel="noopener noreferrer">
           <img
             id="preview-img"
             src={BC_history}
@@ -141,7 +141,7 @@ const Projects = () => {
         <h1>SPILT MILK</h1>
         <p>Personal Project - Developer & Designer</p>
 
-        <a href="https://spiltmilk-portfolio.firebaseapp.com/">
+        <a href="https://spiltmilk-portfolio.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
           <img
             id="preview-img"
             src={showcaseabout}
@@ -149,7 +149,7 @@ const Projects = () => {
           />
         </a>
 
-        <a href="https://spiltmilk-portfolio.firebaseapp.com/">
+        <a href="https://spiltmilk-portfolio.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
           <img
             id="preview-img"
             src={showcaseprojects}
@@ -184,7 +184,7 @@ const Projects = () => {
         <p>008</p>
         <h1>BUBBLE TEA SHOP - Work in Progress</h1>
         <p>Contract Project - Developer & Designer</p>
-        <a href="https://meo-tea.web.app/">
+        <a href="https://meo-tea.web.app/" target="_blank" rel="noopener noreferrer">
           <img
             id="preview-img-vert"
             src={BT_Landing}
@@ -192,7 +192,7 @@ const Projects = () => {
           />
         </a>
 
-        <a href="https://meo-tea.web.app/">
+        <a href="https://meo-tea.web.app/" target="_blank" rel="noopener noreferrer">
           <img
             id="preview-img-vert"
             src={BT_Order}
