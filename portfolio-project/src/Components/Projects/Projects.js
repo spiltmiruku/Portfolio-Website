@@ -29,7 +29,6 @@ const Projects = () => {
   return (
     <div className="projects-box">
 
-
       <section className="project-section">
         <p>001</p>
         <h1>zFairs</h1>
@@ -46,7 +45,6 @@ const Projects = () => {
           <img id="preview-img" src={zFairs2} alt="screenshot of zFairs quiz" />
         </a>
       </section>
-
 
       <section className="project-section">
         <p>002</p>
@@ -136,7 +134,7 @@ const Projects = () => {
       </section>
 
 
-      <section className="project-section">
+      {/* <section className="project-section">
         <p>006</p>
         <h1>SPILT MILK</h1>
         <p>Personal Project - Developer & Designer</p>
@@ -156,10 +154,10 @@ const Projects = () => {
             alt="screenshot of spilt milk projects section"
           />
         </a>
-      </section>
+      </section> */}
 
       <section className="project-section">
-        <p>007</p>
+        <p>006</p>
         <h1>DIGITAL HARBINGER - Work in Progress</h1>
         <p>Contract Project - Developer & Designer</p>
 
@@ -181,7 +179,7 @@ const Projects = () => {
       </section>
 
       <section className="project-section">
-        <p>008</p>
+        <p>007</p>
         <h1>BUBBLE TEA SHOP - Work in Progress</h1>
         <p>Contract Project - Developer & Designer</p>
         <a href="https://meo-tea.web.app/" target="_blank" rel="noopener noreferrer">
